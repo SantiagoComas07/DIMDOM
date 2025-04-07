@@ -118,6 +118,7 @@ flex-direction: column;
 
     text-align: center;
 
+
 }
 
 .productos h3{
@@ -135,8 +136,14 @@ justify-content: center;
 
 }
 
+.iconoPequeño{
 
+width: 45px;
+height: 45px;
+vertical-align: middle;
+margin-right: 5px;
 
+}
 
 .card{
  width:20%;
@@ -146,6 +153,7 @@ justify-content: center;
  text-align: center;
  overflow: hidden;
  margin:20px;
+ padding-bottom:10px;
  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -166,6 +174,27 @@ margin:0;
     width: 100%;
     object-fit: cover;
 }
+
+
+
+.catalogo article h4{
+
+    color:rgb(62, 2, 2);
+
+}
+
+.moreInfo{
+text-decoration:none;
+color:rgb(99, 5, 5);
+transition: color ease 0.3s;
+
+}
+
+.moreInfo:hover{
+ color:rgb(181, 0, 0);
+    
+}
+
 
 /* Main footer */
 
